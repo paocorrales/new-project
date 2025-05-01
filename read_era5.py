@@ -1,5 +1,6 @@
 import xarray as xr
 import matplotlib.pyplot as plt
+import numpy
 
 # Load a NetCDF climate dataset
 ds = xr.open_mfdataset("era5_data.nc")
